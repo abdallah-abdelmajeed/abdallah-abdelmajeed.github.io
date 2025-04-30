@@ -1,74 +1,52 @@
-<<<<<<< HEAD
-# Static HTML Version of Personal Website
+# Abdallah Abdelmajeed - Personal Website (Static HTML)
 
 ## Overview
-This folder contains a static HTML version of Abdallah Abdelmajeed's personal website. The original website was built using Next.js, and this version has been converted to pure HTML, CSS, and JavaScript for simpler deployment.
+This project is a static HTML, CSS, and JavaScript version of Abdallah Abdelmajeed's personal website. It is designed for easy deployment and fast loading, with no server-side dependencies. The original site was built with Next.js, but this version is fully static for maximum compatibility.
 
 ## Structure
-- `index.html` - Main HTML file that contains the website structure
-- `css/styles.css` - CSS styles for the website
-- `js/main.js` - JavaScript functionality for tab switching and other interactive elements
-- `tabs/` - Contains HTML files for each tab's content
-- `assets/` - Contains images, PDFs, and other static assets
+- `index.html` — Main entry point and layout
+- `css/styles.css` — Custom styles and responsive design
+- `js/main.js` — Tab navigation and dynamic content loading
+- `tabs/` — HTML files for each tab (About Me, Research, CV, Publications, Datasets, Interests, Contact)
+- `assets/` — Images, profile photo, CV PDF, and other static files
 
 ## Features
-- Responsive design that works on mobile and desktop
-- Tab-based navigation system
-- Contact form (static implementation)
-- Downloadable CV
-- Social media and academic profile links
+- **Modern, responsive design** for desktop and mobile
+- **Tab-based navigation** with smooth transitions
+- **Downloadable CV** (PDF)
+- **Contact form** — Now sends messages to `ay1214@fayoum.edu.eg` via [Formspree](https://formspree.io/)
+- **Social and academic profile links** (LinkedIn, Google Scholar, ORCID)
+- **Accessible and clean UI** with professional theming
 
-## Deployment
-To deploy this website, simply upload all files and folders to any web hosting service. Since it's a static website, it doesn't require any server-side processing or database.
+## How to Use
+### Local Testing
+- Open `index.html` directly in your browser, or
+- Use a local server (e.g., Live Server extension in VS Code) for best results
 
-Some simple deployment options:
-1. GitHub Pages
-2. Netlify
-3. Vercel
-4. Amazon S3
-5. Any basic web hosting service
+### Deployment
+You can deploy this static site to any web host. Popular options:
+- **GitHub Pages** (recommended)
+- Netlify
+- Vercel
+- Amazon S3
+- Any static web hosting provider
 
-## Local Testing
-To test the website locally, you can:
-1. Double-click the `index.html` file to open it in your browser
-2. Use a local development server like Live Server in VS Code
+#### Deploying to GitHub Pages
+1. Push all files to your GitHub repository (see `GITHUB_SETUP.md` for details)
+2. In your repo settings, enable GitHub Pages and select the `main` branch
+3. (Optional) Set up a custom domain (see `SETUP_INSTRUCTIONS.md`)
 
-## Original Source
-=======
-# Static HTML Version of Personal Website
+#### Contact Form Setup
+- The contact form uses [Formspree](https://formspree.io/f/xanoqaqe) to send messages to `ay1214@fayoum.edu.eg`
+- No backend or server code is required
+- You can change the Formspree endpoint in `tabs/contact.html` if needed
 
-## Overview
-This folder contains a static HTML version of Abdallah Abdelmajeed's personal website. The original website was built using Next.js, and this version has been converted to pure HTML, CSS, and JavaScript for simpler deployment.
+## Keeping Your CV Updated
+- Replace `assets/Abdallah Abdelmajeed_CV-EN.pdf` with your latest CV
+- The download button will always link to this file
 
-## Structure
-- `index.html` - Main HTML file that contains the website structure
-- `css/styles.css` - CSS styles for the website
-- `js/main.js` - JavaScript functionality for tab switching and other interactive elements
-- `tabs/` - Contains HTML files for each tab's content
-- `assets/` - Contains images, PDFs, and other static assets
+## License
+This project is for personal and academic use. For reuse or adaptation, please contact Abdallah Abdelmajeed.
 
-## Features
-- Responsive design that works on mobile and desktop
-- Tab-based navigation system
-- Contact form (static implementation)
-- Downloadable CV
-- Social media and academic profile links
-
-## Deployment
-To deploy this website, simply upload all files and folders to any web hosting service. Since it's a static website, it doesn't require any server-side processing or database.
-
-Some simple deployment options:
-1. GitHub Pages
-2. Netlify
-3. Vercel
-4. Amazon S3
-5. Any basic web hosting service
-
-## Local Testing
-To test the website locally, you can:
-1. Double-click the `index.html` file to open it in your browser
-2. Use a local development server like Live Server in VS Code
-
-## Original Source
->>>>>>> ce5182f74d0df33e7c0ab1048ed1aec2f209040c
-The original website was built with Next.js. This static version preserves all the content and design while making it easier to deploy without requiring Node.js or build processes.
+---
+For more setup help, see the included `COMPLETE_SETUP_GUIDE.md` and other markdown guides in this repository.

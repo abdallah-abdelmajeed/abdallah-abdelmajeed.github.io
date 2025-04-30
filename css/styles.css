@@ -627,6 +627,7 @@ body {
   letter-spacing: 0.02em;
   transition: background 0.3s, box-shadow 0.3s;
   text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
 .download-button:hover {
@@ -636,45 +637,52 @@ body {
 
 /* Tab System */
 .tab-button {
+  background: linear-gradient(90deg, #23408e 0%, #00bcd4 100%);
+  color: #fff !important;
+  border: none;
   border-radius: var(--radius);
-  font-weight: 500;
-  color: var(--primary);
-  background: var(--secondary);
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px 0 rgba(35,64,142,0.08);
+  letter-spacing: 0.02em;
   transition: background 0.3s, color 0.3s;
+  list-style: none;
+  position: relative;
 }
-.tab-button:hover {
-  background: var(--primary-accent);
-  color: #fff;
+.tab-button:before {
+  display: none !important;
 }
-
-.tab-button i {
-  color: #6b7280;
-  transition-property: color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.tab-button:hover {
-  background-color: #f9fafb;
-  color: #4a90e2;
-}
-
 .tab-button.active {
   background: linear-gradient(90deg, #23408e 0%, #00bcd4 100%);
-  color: #fff;
-  border: none;
-  box-shadow: 0 2px 8px 0 rgba(35,64,142,0.08);
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  transition: background 0.3s, box-shadow 0.3s;
+  color: #fff !important;
 }
-.tab-button.active:hover {
+.tab-button i {
+  color: #fff !important;
+}
+.tab-button:focus {
+  outline: 2px solid #00bcd4;
+  outline-offset: 2px;
+}
+.tab-button:hover {
   background: linear-gradient(90deg, #1a2233 0%, #00bcd4 100%);
-  box-shadow: 0 4px 16px 0 rgba(35,64,142,0.12);
+  color: #fff !important;
 }
 
-.tab-button.active i {
-  color: #4a90e2;
+/* Ensure search and send buttons have correct background and contrast */
+#pub-search ~ button, #contact-form button {
+  background: linear-gradient(90deg, #23408e 0%, #00bcd4 100%);
+  color: #fff !important;
+  border: none;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+#pub-search ~ button:hover, #contact-form button:hover {
+  background: linear-gradient(90deg, #1a2233 0%, #00bcd4 100%);
+}
+
+/* Remove bullets from tab list */
+[role="tablist"] li {
+  list-style: none !important;
 }
 
 .tab-content {
