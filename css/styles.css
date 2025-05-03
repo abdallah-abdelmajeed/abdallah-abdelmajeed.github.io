@@ -894,6 +894,10 @@ a.hover\:underline:hover {
   margin-bottom: 1.25em;
 }
 
+.prose p, .text-justify, p.text-justify {
+  text-align: justify;
+}
+
 .prose ul {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
