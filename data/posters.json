@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "mrs-gpp-sif",
+      "title": {
+        "en": "Challenges of Linking EC Data (GPP) to Hyperspectral Data (SIF): A Case Study in Rzecin Peatland, Poland",
+        "ar": "تحديات ربط بيانات تبادل الغازات (إجمالي الإنتاج الأولي) بالبيانات فائقة التحليل (الفلورسنس المستحث بالشمس): دراسة حالة في تورف رزيتشين، بولندا",
+        "pl": "Wyzwania łączenia danych EC (GPP) z danymi hiper-spektralnymi (SIF): studium przypadku torfowiska Rzecin, Polska"
+      },
+      "body": {
+        "en": "Presented at Mountain Research Station, University of Colorado, Boulder, CO, USA",
+        "ar": "عُرض في محطة أبحاث الجبال، جامعة كولورادو، بولدر، الولايات المتحدة",
+        "pl": "Prezentacja: Mountain Research Station, University of Colorado, Boulder, CO, USA"
+      },
+      "tags": {
+        "en": ["Poster", "SIF", "GPP", "Rzecin Peatland"],
+        "ar": ["ملصق", "SIF", "GPP", "تورف رزيتشين"],
+        "pl": ["Poster", "SIF", "GPP", "Rzecin"]
+      }
+    },
+    {
+      "id": "fmis-msc",
+      "title": {
+        "en": "The capabilities and limitations of cloud-based Farm Management Information Systems (FMIS) for UAV-based imaging",
+        "ar": "إمكانات وقيود أنظمة معلومات إدارة المزارع السحابية للتصوير المعتمد على الطائرات المسيّرة",
+        "pl": "Możliwości i ograniczenia chmurowych systemów FMIS dla obrazowania z UAV"
+      },
+      "body": {
+        "en": "MSc thesis presentation at the Institute of Advanced Studies Kőszeg (iASK), Kőszeg, Hungary",
+        "ar": "عرض أطروحة الماجستير في معهد الدراسات المتقدمة كوسيج (iASK)، كوسيج، المجر",
+        "pl": "Prezentacja pracy magisterskiej: Institute of Advanced Studies Kőszeg (iASK), Węgry"
+      },
+      "tags": {
+        "en": ["MSc thesis", "FMIS", "UAV imaging"],
+        "ar": ["ماجستير", "FMIS", "UAV"],
+        "pl": ["Magisterka", "FMIS", "UAV"]
+      }
+    },
+    {
+      "id": "esa-spectrum-2022",
+      "title": {
+        "en": "Does the spectrum signature change according to the altitude?",
+        "ar": "هل يتغير توقيع الطيف وفقًا للارتفاع؟",
+        "pl": "Czy sygnatura spektralna zmienia się w zależności od wysokości?"
+      },
+      "body": {
+        "en": "Presented in ESA-led training (21–25 November 2022) at the Institute of Advanced Studies Kőszeg (iASK), Kőszeg, Hungary",
+        "ar": "عُرض في تدريب بقيادة وكالة الفضاء الأوروبية (21–25 نوفمبر 2022) في معهد الدراسات المتقدمة كوسيج، المجر",
+        "pl": "Prezentacja podczas szkolenia ESA (21–25 listopada 2022), iASK, Kőszeg, Węgry"
+      },
+      "tags": {
+        "en": ["2022", "Poster", "Remote sensing"],
+        "ar": ["2022", "ملصق", "استشعار عن بعد"],
+        "pl": ["2022", "Poster", "Teledetekcja"]
+      }
+    }
+  ]
+}

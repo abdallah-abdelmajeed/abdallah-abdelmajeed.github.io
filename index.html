@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdallah Abdelmajeed - Personal Website</title>
+  <meta name="description" content="Personal website of Abdallah Abdelmajeed, Environmental Engineering Researcher & Drone Specialist">
+  <meta name="theme-color" content="#23408e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&family=Noto+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="./assets/aa-favicon.svg">
+  <link rel="icon" type="image/png" href="./assets/profile-photo.png">
+  <meta property="og:title" content="Abdallah Abdelmajeed - Personal Website">
+  <meta property="og:description" content="Personal website of Abdallah Abdelmajeed, Environmental Engineering Researcher & Drone Specialist">
+  <meta property="og:image" content="https://abdallah-abdelmajeed.github.io/assets/profile-photo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abdallah-abdelmajeed.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abdallah Abdelmajeed - Personal Website">
+  <meta name="twitter:description" content="Personal website of Abdallah Abdelmajeed, Environmental Engineering Researcher & Drone Specialist">
+  <meta name="twitter:image" content="https://abdallah-abdelmajeed.github.io/assets/profile-photo.png">
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="skip">Skip to main content</a>
+  <div class="flex min-h-screen flex-col bg-[#f9fafb]">
+    <header class="py-4 border-b border-gray-200 bg-white sticky top-0 z-50 transition-all duration-300" id="header">
+      <div class="container mx-auto px-4 flex justify-between items-center site-header-inner">
+        <div class="flex items-center gap-3 min-w-0">
+          <img
+            src="./assets/profile-photo.png"
+            alt="Portrait of Abdallah Abdelmajeed, Environmental Engineering Researcher and Drone Specialist"
+            class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm shrink-0"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+          <div class="min-w-0">
+            <p class="text-xl font-semibold text-white truncate">Abdallah Abdelmajeed</p>
+            <p class="text-sm text-white opacity-90" data-i18n="role_subtitle">PhD candidate</p>
+          </div>
+        </div>
+        <nav class="flex items-center gap-3 flex-wrap justify-end" aria-label="Main navigation">
+          <div class="lang-switcher flex items-center gap-1" role="group" aria-label="Language">
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">AR</button>
+            <button type="button" class="lang-btn" data-lang="pl" aria-pressed="false">PL</button>
+          </div>
+          <a href="mailto:ay1214@fayoum.edu.eg" class="text-white hover:text-[#00bcd4] transition-colors">
+            <i class="fas fa-envelope h-5 w-5"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/abdallahabdelmajeed"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white hover:text-[#00bcd4] transition-colors"
+          >
+            <i class="fab fa-linkedin h-5 w-5"></i>
+          </a>
+          <a
+            href="https://scholar.google.com/citations?user=3BWwFJAAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white hover:text-[#00bcd4] transition-colors"
+          >
+            <i class="google-scholar-icon h-5 w-5"></i>
+          </a>
+          <a
+            href="https://orcid.org/0000-0002-3662-1824"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white hover:text-[#00bcd4] transition-colors"
+          >
+            <i class="orcid-icon h-5 w-5"></i>
+          </a>
+          <a href="./assets/Abdallah%20Abdelmajeed_CV-EN.pdf" download class="ml-2 download-button header-cv-btn">
+            <i class="fas fa-download mr-1" aria-hidden="true"></i> <span data-i18n="header_download_cv">Download CV</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-section py-16 md:py-24" aria-labelledby="hero-heading">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div class="hero-photo-wrap">
+            <img
+              id="hero-photo"
+              src="./assets/profile-photo.png"
+              alt=""
+              class="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl block"
+              width="192"
+              height="192"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+          <div class="text-center md:text-left">
+            <p class="hero-kicker" id="hero-kicker" data-i18n="hero_kicker">Environmental research</p>
+            <h1 id="hero-heading" class="text-3xl md:text-4xl font-bold mb-3">Abdallah Abdelmajeed</h1>
+            <h2 class="text-xl md:text-2xl font-light mb-4" data-i18n="hero_subtitle">
+              Environmental Engineering Researcher & Drone Specialist
+            </h2>
+            <p class="text-lg max-w-2xl opacity-90 mb-6" data-i18n="hero_lead">
+              PhD candidate with expertise in UAV-based research, remote sensing, and geoinformation science.
+              Specializing in environmental monitoring and climate change research.
+            </p>
+            <div class="flex flex-wrap gap-2 justify-center md:justify-start hero-badges">
+              <span class="badge bg-white/20 hover:bg-white/30 text-white" data-i18n="badge_uav">UAV Research</span>
+              <span class="badge bg-white/20 hover:bg-white/30 text-white" data-i18n="badge_rs">Remote Sensing</span>
+              <span class="badge bg-white/20 hover:bg-white/30 text-white" data-i18n="badge_env">Environmental Engineering</span>
+              <span class="badge bg-white/20 hover:bg-white/30 text-white" data-i18n="badge_geo">Geoinformation Science</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="flex-1 container mx-auto px-4 py-8 md:py-12" id="main-content" tabindex="-1">
+      <div class="flex flex-col lg:flex-row gap-6 lg:gap-8 layout-main">
+        <aside class="sidebar-nav w-full lg:w-72 shrink-0 bg-white rounded-lg shadow-md p-4 sm:p-6 lg:sticky lg:top-24 lg:self-start" aria-label="Sidebar">
+          <nav aria-label="Sidebar navigation">
+            <ul class="space-y-1" role="tablist" aria-orientation="vertical">
+              <li>
+                <button
+                  data-tab="about-me"
+                  class="tab-button active w-full text-left px-4 py-3 rounded-md flex items-center gap-3 transition-all"
+                >
+                  <i class="fas fa-user h-5 w-5 shrink-0" aria-hidden="true"></i>
+                  <span data-i18n="tab_about">About Me</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  data-tab="research"
+                  class="tab-button w-full text-left px-4 py-3 rounded-md flex items-center gap-3 transition-all"
+                >
+                  <i class="fas fa-flask h-5 w-5 shrink-0" aria-hidden="true"></i>
+                  <span data-i18n="tab_research">Research</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  data-tab="cv"
+                  class="tab-button w-full text-left px-4 py-3 rounded-md flex items-center gap-3 transition-all"
+                >
+                  <i class="fas fa-file-alt h-5 w-5 shrink-0" aria-hidden="true"></i>
+                  <span data-i18n="tab_cv">CV</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  data-tab="publications"
+                  class="tab-button w-full text-left px-4 py-3 rounded-md flex items-center gap-3 transition-all"
+                >
+                  <i class="fas fa-book h-5 w-5 shrink-0" aria-hidden="true"></i>
+                  <span data-i18n="tab_publications">Publications</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  data-tab="datasets"
+                  class="tab-button w-full text-left px-4 py-3 rounded-md flex items-center gap-3 transition-all"
+                >
+                  <i class="fas fa-database h-5 w-5 shrink-0" aria-hidden="true"></i>
+                  <span data-i18n="tab_datasets">Datasets</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  data-tab="interests"
+                  class="tab-button w-full text-left px-4 py-3 rounded-md flex items-center gap-3 transition-all"
+                >
+                  <i class="fas fa-heart h-5 w-5 shrink-0" aria-hidden="true"></i>
+                  <span data-i18n="tab_interests">Interests</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  data-tab="contact"
+                  class="tab-button w-full text-left px-4 py-3 rounded-md flex items-center gap-3 transition-all"
+                >
+                  <i class="fas fa-paper-plane h-5 w-5 shrink-0" aria-hidden="true"></i>
+                  <span data-i18n="tab_contact">Contact</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="separator my-6"></div>
+
+          <div class="space-y-4">
+            <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider" data-i18n="connect">Connect</h3>
+            <div class="flex flex-col space-y-3">
+              <a
+                href="mailto:ay1214@fayoum.edu.eg"
+                class="text-gray-700 hover:text-[#4a90e2] transition-colors flex items-center gap-2 text-sm"
+              >
+                <i class="fas fa-envelope h-4 w-4"></i>
+                ay1214@fayoum.edu.eg
+              </a>
+              <a
+                href="https://www.linkedin.com/in/abdallahabdelmajeed"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-700 hover:text-[#4a90e2] transition-colors flex items-center gap-2 text-sm"
+              >
+                <i class="fab fa-linkedin h-4 w-4"></i>
+                <span data-i18n="linkedin_label">LinkedIn Profile</span>
+              </a>
+              <a
+                href="https://scholar.google.com/citations?user=3BWwFJAAAAAJ&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-700 hover:text-[#4a90e2] transition-colors flex items-center gap-2 text-sm"
+              >
+                <i class="google-scholar-icon h-4 w-4"></i>
+                <span data-i18n="google_scholar_label">Google Scholar</span>
+              </a>
+              <a
+                href="https://orcid.org/0000-0002-3662-1824"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-700 hover:text-[#4a90e2] transition-colors flex items-center gap-2 text-sm"
+              >
+                <i class="orcid-icon h-4 w-4"></i>
+                <span data-i18n="orcid_label">ORCID</span>
+              </a>
+              <p class="text-gray-700 flex items-center gap-2 text-sm">
+                <i class="fas fa-map-marker-alt h-4 w-4"></i>
+                <span data-i18n="location_line">Poznan, Poland</span>
+              </p>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Content -->
+        <section class="flex-1 min-w-0 tab-panel-section" id="tab-panel" tabindex="0" aria-live="polite" aria-label="Tab content">
+          <div id="tab-content" class="tab-content"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 py-8 mt-12" role="contentinfo">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <p class="text-gray-600 text-sm" data-i18n="footer_rights">&copy; 2026 Abdallah Abdelmajeed. All rights reserved.</p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="mailto:ay1214@fayoum.edu.eg" class="text-gray-600 hover:text-[#4a90e2] transition-colors">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abdallahabdelmajeed"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-600 hover:text-[#4a90e2] transition-colors"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://scholar.google.com/citations?user=3BWwFJAAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-600 hover:text-[#4a90e2] transition-colors"
+            >
+              <i class="google-scholar-icon"></i>
+            </a>
+            <a
+              href="https://orcid.org/0000-0002-3662-1824"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-600 hover:text-[#4a90e2] transition-colors"
+            >
+              <i class="orcid-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./js/publications.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
