@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "lat": 52.75,
+      "lng": 16.3,
+      "title": {
+        "en": "Rzecin Peatland Research Station",
+        "ar": "محطة أبحاث تورف رزيتشين",
+        "pl": "Stacja badawcza torfowiska Rzecin"
+      },
+      "desc": {
+        "en": "Primary field site — UAV campaigns, SIF/GPP measurements and heatwave manipulation experiments (PhD research).",
+        "ar": "الموقع الميداني الرئيسي — حملات الطائرات المسيّرة وقياسات SIF/GPP وتجارب موجات الحر (بحث الدكتوراه).",
+        "pl": "Główne miejsce badań — kampanie BSP, pomiary SIF/GPP i eksperymenty z falami upałów (praca doktorska)."
+      }
+    },
+    {
+      "lat": 52.417,
+      "lng": 16.925,
+      "title": {
+        "en": "Poznan University of Life Sciences",
+        "ar": "جامعة العلوم الحياتية في بوزنان",
+        "pl": "Uniwersytet Przyrodniczy w Poznaniu"
+      },
+      "desc": {
+        "en": "Department of Bioclimatology — home of my research and teaching.",
+        "ar": "قسم علم المناخ الحيوي — مقر بحثي وتدريسي.",
+        "pl": "Katedra Bioklimatologii — moje miejsce badań i dydaktyki."
+      }
+    },
+    {
+      "lat": 47.389,
+      "lng": 16.546,
+      "title": {
+        "en": "iASK, Kőszeg (Hungary)",
+        "ar": "معهد الدراسات المتقدمة كوسيج (المجر)",
+        "pl": "iASK, Kőszeg (Węgry)"
+      },
+      "desc": {
+        "en": "MSc thesis presentation and the ESA-led training with a poster (2022).",
+        "ar": "عرض أطروحة الماجستير وتدريب ESA مع ملصق (2022).",
+        "pl": "Prezentacja pracy magisterskiej i szkolenie ESA z plakatem (2022)."
+      }
+    },
+    {
+      "lat": 52.221,
+      "lng": 6.893,
+      "title": {
+        "en": "AgriWatch, Enschede (Netherlands)",
+        "ar": "AgriWatch، إنسخيده (هولندا)",
+        "pl": "AgriWatch, Enschede (Holandia)"
+      },
+      "desc": {
+        "en": "Internship in UAV-based drought monitoring (2020).",
+        "ar": "تدريب عملي في رصد الجفاف بالطائرات المسيّرة (2020).",
+        "pl": "Staż z zakresu monitoringu suszy z BSP (2020)."
+      }
+    },
+    {
+      "lat": 37.984,
+      "lng": 23.728,
+      "title": {
+        "en": "Athens (Greece)",
+        "ar": "أثينا (اليونان)",
+        "pl": "Ateny (Grecja)"
+      },
+      "desc": {
+        "en": "IGARSS 2024 Summer School, sponsored by IEEE GRSS.",
+        "ar": "مدرسة IGARSS 2024 الصيفية برعاية IEEE GRSS.",
+        "pl": "IGARSS 2024 Summer School pod patronatem IEEE GRSS."
+      }
+    },
+    {
+      "lat": 40.013,
+      "lng": -105.545,
+      "title": {
+        "en": "Mountain Research Station, Boulder (USA)",
+        "ar": "محطة أبحاث الجبال، بولدر (الولايات المتحدة)",
+        "pl": "Mountain Research Station, Boulder (USA)"
+      },
+      "desc": {
+        "en": "Poster presentation on linking eddy-covariance GPP to hyperspectral SIF data.",
+        "ar": "عرض ملصق حول ربط بيانات GPP بالفلورسنس فائق الطيف (SIF).",
+        "pl": "Plakat o łączeniu danych GPP z hiperspektralnym SIF."
+      }
+    },
+    {
+      "lat": 39.48,
+      "lng": -0.37,
+      "title": {
+        "en": "Valencia (Spain)",
+        "ar": "فالنسيا (إسبانيا)",
+        "pl": "Walencja (Hiszpania)"
+      },
+      "desc": {
+        "en": "Internship visit to the Image Processing Laboratory (IPL), University of Valencia.",
+        "ar": "زيارة تدريبية إلى مختبر معالجة الصور (IPL) بجامعة فالنسيا.",
+        "pl": "Wizyta stażowa w Image Processing Laboratory (IPL), Uniwersytet w Walencji."
+      }
+    },
+    {
+      "lat": 56.16,
+      "lng": 10.2,
+      "title": {
+        "en": "Aarhus (Denmark)",
+        "ar": "آرهوس (الدنمارك)",
+        "pl": "Aarhus (Dania)"
+      },
+      "desc": {
+        "en": "Internship stay in Aarhus, Denmark.",
+        "ar": "إقامة تدريبية في آرهوس، الدنمارك.",
+        "pl": "Staż w Aarhus, Dania."
+      }
+    },
+    {
+      "lat": 48.21,
+      "lng": 16.37,
+      "title": {
+        "en": "Vienna (Austria)",
+        "ar": "فيينا (النمسا)",
+        "pl": "Wiedeń (Austria)"
+      },
+      "desc": {
+        "en": "EGU General Assembly — European Geosciences Union conference.",
+        "ar": "الجمعية العامة لـ EGU — مؤتمر الاتحاد الأوروبي لعلوم الأرض.",
+        "pl": "Zgromadzenie Ogólne EGU — konferencja European Geosciences Union."
+      }
+    },
+    {
+      "lat": 50.08,
+      "lng": 14.44,
+      "title": {
+        "en": "Prague (Czech Republic)",
+        "ar": "براغ (التشيك)",
+        "pl": "Praga (Czechy)"
+      },
+      "desc": {
+        "en": "Summer school — Better Life project.",
+        "ar": "مدرسة صيفية — مشروع Better Life.",
+        "pl": "Szkoła letnia — projekt Better Life."
+      }
+    },
+    {
+      "lat": 50.73,
+      "lng": 7.1,
+      "title": {
+        "en": "Bonn (Germany)",
+        "ar": "بون (ألمانيا)",
+        "pl": "Bonn (Niemcy)"
+      },
+      "desc": {
+        "en": "FLEX mission workshop (ESA's FLuorescence EXplorer).",
+        "ar": "ورشة مهمة FLEX (قمر FLuorescence EXplorer التابع لوكالة الفضاء الأوروبية).",
+        "pl": "Warsztaty misji FLEX (FLuorescence EXplorer, ESA)."
+      }
+    }
+  ]
+}

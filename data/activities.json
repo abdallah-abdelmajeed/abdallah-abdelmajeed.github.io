@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "date": "2024-07",
+      "kind": {
+        "en": "Training",
+        "ar": "تدريب",
+        "pl": "Szkolenie"
+      },
+      "title": {
+        "en": "IGARSS 2024 Summer School, sponsored by IEEE GRSS — Athens, Greece",
+        "ar": "مدرسة IGARSS 2024 الصيفية برعاية IEEE GRSS — أثينا، اليونان",
+        "pl": "IGARSS 2024 Summer School pod patronatem IEEE GRSS — Ateny, Grecja"
+      }
+    },
+    {
+      "date": "2023-02",
+      "kind": {
+        "en": "Membership",
+        "ar": "عضوية",
+        "pl": "Członkostwo"
+      },
+      "title": {
+        "en": "Joined the LI-COR-Carbon Dew Community for Climate Solutions",
+        "ar": "الانضمام إلى مجتمع LI-COR-Carbon Dew لحلول المناخ",
+        "pl": "Przystąpienie do LI-COR-Carbon Dew Community for Climate Solutions"
+      }
+    },
+    {
+      "date": "2022-11",
+      "kind": {
+        "en": "Training & poster",
+        "ar": "تدريب وملصق",
+        "pl": "Szkolenie i plakat"
+      },
+      "title": {
+        "en": "ESA-led training and poster presentation at the Institute of Advanced Studies Kőszeg (iASK), Hungary",
+        "ar": "تدريب بقيادة وكالة الفضاء الأوروبية وعرض ملصق في معهد الدراسات المتقدمة كوسيج (iASK)، المجر",
+        "pl": "Szkolenie ESA i prezentacja plakatowa w Institute of Advanced Studies Kőszeg (iASK), Węgry"
+      }
+    },
+    {
+      "date": "2022-09",
+      "kind": {
+        "en": "Membership",
+        "ar": "عضوية",
+        "pl": "Członkostwo"
+      },
+      "title": {
+        "en": "Joined the GRSS Instrumentation and Future Technologies Technical Committee (IFT-TC) and Geoscience Spaceborne Imaging Spectroscopy (GSIS)",
+        "ar": "الانضمام إلى لجنة GRSS للتقنيات والأجهزة (IFT-TC) وتصوير الطيف الفضائي (GSIS)",
+        "pl": "Przystąpienie do GRSS IFT-TC oraz Geoscience Spaceborne Imaging Spectroscopy (GSIS)"
+      }
+    },
+    {
+      "date": "2021-10",
+      "kind": {
+        "en": "Position",
+        "ar": "منصب",
+        "pl": "Stanowisko"
+      },
+      "title": {
+        "en": "Started PhD in Environmental Engineering at Poznan University of Life Science",
+        "ar": "بدء دراسة الدكتوراه في الهندسة البيئية بجامعة العلوم الحياتية في بوزنان",
+        "pl": "Rozpoczęcie studiów doktoranckich z inżynierii środowiska na Uniwersytecie Przyrodniczym w Poznaniu"
+      }
+    },
+    {
+      "date": "2020-07",
+      "kind": {
+        "en": "Internship",
+        "ar": "تدريب عملي",
+        "pl": "Staż"
+      },
+      "title": {
+        "en": "Internship in drought monitoring at AgriWatch, Enschede, The Netherlands",
+        "ar": "تدريب عملي في رصد الجفاف لدى AgriWatch، إنسخيده، هولندا",
+        "pl": "Staż z zakresu monitoringu suszy w AgriWatch, Enschede, Holandia"
+      }
+    },
+    {
+      "date": "2020-03",
+      "kind": {
+        "en": "Position",
+        "ar": "منصب",
+        "pl": "Stanowisko"
+      },
+      "title": {
+        "en": "Research Assistant for the Smart Agrihub project at Poznan University of Life Science",
+        "ar": "مساعد باحث في مشروع Smart Agrihub بجامعة العلوم الحياتية في بوزنان",
+        "pl": "Asystent badawczy w projekcie Smart Agrihub na Uniwersytecie Przyrodniczym w Poznaniu"
+      }
+    }
+  ]
+}
